@@ -1,0 +1,11 @@
+section{
+    display: flex;
+}
+.container{
+    width: 1366px;
+}
+.row{
+    display: flex;
+    width: 50%;
+}
+
