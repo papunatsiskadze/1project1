@@ -1,11 +1,22 @@
-section{
+header{
     display: flex;
+    margin: 0%;
+}
+.nav{
+    background-color: brown;
+}
+.header-ul{
+    display: flex;
+    background-color: blue;
+    list-style: none;
 }
 .container{
-    width: 1366px;
+    background-color: darkgreen;
+    justify-content: space-between;
 }
-.row{
-    display: flex;
-    width: 50%;
+.leftpart{
+    background-color: aquamarine;
 }
-
+.rightpart{
+    background-color: blueviolet;
+}
