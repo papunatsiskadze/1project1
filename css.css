@@ -1,22 +1,36 @@
+body{
+    margin: 0;
+}
 header{
     display: flex;
-    margin: 0%;
+    justify-content: center;
+    background-color: darksalmon;
+    height: 100px;
+    padding: 5%;
+    margin:0%;
 }
-.nav{
-    background-color: brown;
+.navigation{
+    width: 100%;
 }
-.header-ul{
+ul{
     display: flex;
-    background-color: blue;
     list-style: none;
 }
+.nav-link{
+    margin-left: 20%;
+}
 .container{
-    background-color: darkgreen;
-    justify-content: space-between;
+    background-color: aqua;
+    width: 1366px;
 }
-.leftpart{
-    background-color: aquamarine;
+.section{
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
-.rightpart{
-    background-color: blueviolet;
+.row{
+    display: flex;
+    justify-content: center;
+}
+.col4{
+    width: 33.3%;
 }
