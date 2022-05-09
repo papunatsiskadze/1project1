@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 1320px;
+    justify-content: center;
+    display: flex;
+}
+.uleow{
+    display: flex;
+    justify-content: center;
+    list-style:none;
+}
+.nav-links{
+    margin-left: 25%;
+}
