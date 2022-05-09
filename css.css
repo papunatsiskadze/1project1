@@ -29,8 +29,9 @@ ul{
 }
 .row{
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
 .col4{
     width: 33.3%;
+
 }
