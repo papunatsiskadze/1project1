@@ -1,11 +1,13 @@
-var age = 25;
-var income = 500;
-if (age < 30 || income > 500){
-    alert("შეიშვება ოჯახში")
-}
-else if (age > 30 && income <500){
-    alert("არ შეიშვება ოჯახში")
-}
-else {
-    alert("ეჰჰ")
-}
+cinema = {
+    name:"შმავეა",
+    languages: ["ქართული" , "ინგლისური" , "რუსული"],
+    premiere:{
+    name:"კუკარაჩა 3D",
+    imdb:9.8
+    },
+    cities :[
+    {name:"დოქტორი სტრეინჯი", imdb:8.5},
+    {name:"ფორსაჟი 23", imdb:1.05},
+    {name:"ბეტმენი", imdb:7.7}
+    ]
+    }
